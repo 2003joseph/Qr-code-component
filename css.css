@@ -1,0 +1,42 @@
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+}
+body{
+    background-color: var(--Light-gray);
+    
+}
+.qr-code{
+    width: 250px;
+    background-color: white;
+    color: var(--Light-gray);
+    padding-bottom: 3px;
+    border-radius: 15px;
+    text-align: center;
+    margin: 100px auto;
+}
+.title{
+    color: black;
+    font-weight: 700;
+    font-size: 17px;
+    font-family: sans-serif;
+    padding: 15px;
+}
+.image{
+    width: 90%;
+    padding: 10px;
+    border-radius: 15px;
+}
+.sectitle {
+    font-weight: 400;
+    font-family: serif;
+    color :hsl(212, 45%, 89%);
+    padding: 15px;
+    font-size: 14px;
+    
+}
+.sectitle:hover::{
+    color: var(--Grayish-blue);
+}
